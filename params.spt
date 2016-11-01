@@ -1,2 +1,2 @@
 var numMoldens = 10;
-var inputName = "test.out.mld";
+var inputName = "test/test.out.mld";
