@@ -1,0 +1,6 @@
+load "params.spt"
+
+for (var n=1 ; n <= numMoldens ; n++) {
+   moldenFile = inputName + "." + n; 
+   load APPEND @moldenFile;
+}

@@ -1,0 +1,10 @@
+### Plot MOs
+
+load "params.spt";
+
+for (var n=1 ; n <= numMoldens ; n++) {
+  frame @n;
+  id = "mol" + n;
+  isosurface ID @id cutoff 0.02 color translucent 0.4 blue yellow resolution 5.7 mo homo;
+}
+
