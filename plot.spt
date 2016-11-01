@@ -6,8 +6,8 @@ for (var n=1 ; n <= numMoldens ; n++) {
   moldenFile = inputName + "." + n; 
   load APPEND @moldenFile;
   id = "mol" + n;
-  #isosurface ID @id cutoff 0.02 color translucent 0.2 blue yellow resolution 5.7 mo homo;
+  isosurface ID @id cutoff 0.02 color translucent 0.2 blue yellow resolution 5.7 mo homo;
   #isosurface ID @id cutoff 0.02 color translucent 0.2 blue yellow mo homo;
-  isosurface ID @id cutoff 0.02  mo homo;
+  #isosurface ID @id cutoff 0.02  mo homo;
 }
 
